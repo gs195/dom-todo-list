@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Todo List</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<h1>My To-Do List</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>My To-Do List</h1>
+    <form>
+      <input type="text" placeholder="Write your task here..." />
+      <button type="button">Add Task</button>
+    </form>
+    <p id="completed"></p>
+    <p id="pending"></p>
 
-	<ul id="todo-list"></ul>
+    <ul id="todo-list">
+      <!-- <li style="display: none">first item</li> -->
+    </ul>
 
-	<script src="script.js"></script>
-</body>
+    <footer>
+      <p>◀︎Jumpstart | 26.05.19 | Gaurav S.▶︎︎</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
